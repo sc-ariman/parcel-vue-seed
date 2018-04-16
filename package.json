@@ -1,0 +1,27 @@
+{
+  "name": "develop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/parcel index.html",
+    "watch": "node_modules/.bin/parcel watch index.html",
+    "build": "node_modules/.bin/parcel build index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.0.0",
+    "autoprefixer": "^8.2.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.7.0",
+    "postcss-modules": "^1.1.0",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.0",
+    "vueify": "^9.4.1"
+  }
+}
